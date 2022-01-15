@@ -1,2 +1,5 @@
 
 blog-api/
+
+# Local Netlify folder
+.netlify
