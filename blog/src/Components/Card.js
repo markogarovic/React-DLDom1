@@ -12,7 +12,7 @@ export function Card(props) {
       <div className="col l4 m6 s12">
         <div className="card large hoverable">
           <div className="card-image">
-            <img
+            <img className="responsive-img"
               src={props.cardInfo.Image}
               alt="cover img"
               onError={(e) => {
@@ -35,19 +35,14 @@ export function Card(props) {
                   ? props.cardInfo.Post
                   : props.cardInfo.Post.substring(0, 100) + "..."}
               </p>
-              {/* <hr /> */}
-              <hr></hr>
+              <hr/>
               <p className="blue-text right-align">
                 Author: <i>{props.cardInfo.Author}</i>
               </p>
             </div>
-            {/* <h5 className="center-align">{props.cardInfo.Title}</h5> */}
           </div>
-          {/* <div className="card-action"> */}
-          {/* </div> */}
         </div>
       </div>
-      {/* </div> */}
     </Link>
   );
 }

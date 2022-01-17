@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
       <nav className="white">
         <div className="nav-wrapper">
-          <Link to="/" className="brand-logo blue-text">
+          <Link to="/" className="blue-text">
             <img src={logo} alt="logo" className="responsive-img" width="40" />
           </Link>
           <ul id="nav-mobile" className="right">
